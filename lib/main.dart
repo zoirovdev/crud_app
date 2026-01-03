@@ -1,4 +1,4 @@
-import 'package:crud_app/pages/post_page.dart';
+import 'package:crud_app/pages/home_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        body: PostPage(),
+        body: HomePage(),
       )
     );
   }

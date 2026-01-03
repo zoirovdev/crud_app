@@ -9,7 +9,7 @@ class Todo {
     return Todo(
       id: json['id'],
       title: json['title'],
-      completed: json['title']
+      completed: json['completed']
     );
   }
 }
