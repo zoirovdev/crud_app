@@ -1,3 +1,4 @@
+import 'package:crud_app/pages/post_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,16 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        appBar: AppBar(
-          title: Text(
-            "CRUD",
-            style: TextStyle(
-              color: Colors.white,
-              fontWeight: FontWeight.bold,
-            ),
-          ),
-          backgroundColor: Colors.indigo.shade400,
-        ),
+        body: PostPage(),
       )
     );
   }
